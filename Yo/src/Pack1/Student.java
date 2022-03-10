@@ -21,9 +21,11 @@ public class Student
 	{
 		this.age=age;
 	}
-	public void tostring()
+	@Override
+	public String toString()
 	{
-		 System.out.println("Name:" + name+ "Age: "+ age);
+		 return "Name:" + name+ "Age: "+ age;
 	}
 	
 }
+
